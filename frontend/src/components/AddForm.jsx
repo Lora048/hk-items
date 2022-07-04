@@ -15,8 +15,6 @@ function AddForm({ items, setItems }) {
           setItems([...items, res.data]);
         })
         .catch((err) => console.error(err));
-    } else {
-      alert("Enter a correct item");
     }
   };
 
